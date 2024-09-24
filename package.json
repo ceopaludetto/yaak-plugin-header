@@ -1,0 +1,25 @@
+{
+	"name": "template-function-header",
+	"version": "0.0.1",
+	"private": true,
+	"author": {
+		"name": "Carlos Eduardo de Oliveira Paludetto",
+		"email": "ceo.paludetto@gmail.com",
+		"url": "https://www.github.com/ceopaludetto"
+	},
+	"scripts": {
+		"build": "yaakcli build ./src/index.ts",
+		"test": "bun test"
+	},
+	"dependencies": {
+		"@yaakapp/api": "^0.1.17"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^3.7.1",
+		"@total-typescript/tsconfig": "^1.0.4",
+		"@types/bun": "^1.1.10",
+		"@yaakapp/cli": "^0.1.1",
+		"eslint": "^9.11.1",
+		"typescript": "^5.5.2"
+	}
+}
